@@ -2,6 +2,7 @@ from accounting import employee
 class SalariedEmployee(employee):
 
     def __init__(self,salary, commission_rate, weekly_dues):
+        Employee.__init__(self, employee_id, first_name, last_name)
         self.__salary = salary
         self.__commission_rate = commission_rate
         self.__weekly_dues = weekly_dues
@@ -18,3 +19,5 @@ class SalariedEmployee(employee):
 
     def get_weekly_dues(self):
         return self.__weekly_dues
+
+    
