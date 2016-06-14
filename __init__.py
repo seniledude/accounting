@@ -1,7 +1,8 @@
-from accounting import address
-from accounting import bankaccount
-from accounting import employee
-from accounting import reciept
-from accounting import salariedemployee
+from accounting import Address
+from accounting import BankAccount
+from accounting import Employee
+from accounting import Reciept
+from accounting import SalariedEmployee
 from accounting import Timecard
+
 

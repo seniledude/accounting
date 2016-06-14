@@ -1,5 +1,7 @@
-from accounting import employee
-class SalariedEmployee(employee):
+from accounting import Employee
+from accounting import Reciept
+
+class SalariedEmployee(Employee):
 
     def __init__(self,salary, commission_rate, weekly_dues):
         Employee.__init__(self, employee_id, first_name, last_name)
